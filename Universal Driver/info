@@ -1,0 +1,313 @@
+{
+  "uuid": "9f2d8afe040911451863058b91813194",
+  "path": "Offline/Sterownik Wielofunkcyjny V1",
+  "name": "Sterownik Wielofunkcyjny V1",
+  "content": "sterownik robiony z myślą o konkursie naukowym explory",
+  "created_at": "2020-12-22 16:46:15",
+  "updated_at": "2021-02-12 18:30:20",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "f0d7c0ed80566b8a512a195b66b98389",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3fd7f442e32c407b830734b8c2107db7": 1,
+        "ef993dc1fff9442d9f7cefd3e9c5e6ee": 1,
+        "4022bc2554fb495aa66b791ad4a854e7": 8,
+        "1a56b8fa74ab4d02a51910d3846781dd": 2,
+        "8da5042a56374802b0a922e00aac7325": 2,
+        "7415a5a37b738b1966858ba32f35d9c9": 10,
+        "798d338ecc35f17f69de553775e18bf4": 3,
+        "a3c0944574fc44399b15341d2da7d4b2": 1,
+        "45ddbab4559a43c6bc95d2ca22fb25a0": 13,
+        "3e51d76618b24733841d489814d076a0": 8,
+        "c3f0de4f30ca4ae98b63e7ac8c959c6a": 2,
+        "cd792d275cb74f22bcdcd4a2991d6c03": 1,
+        "4a52e8d5749741319739aa214bdc17de": 12,
+        "7f474ecfe86cad0db40a161c696fe62f": 2,
+        "a7867741dd9c4c029422793e4385ff77": 1,
+        "7c6a4836973e8830e99830ae740040ed": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "L293D",
+          2,
+          "DIL16",
+          "IC2,IC1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "61df6965413e4fae954e6813437fa7e6",
+            "uuid": "1a56b8fa74ab4d02a51910d3846781dd"
+          }
+        ],
+        [
+          "AK ARK3 5MM",
+          8,
+          "AK ARK3 5MM",
+          "PRZEKAZNIK3,PRZEKAZNIK8,PRZEKAZNIK7,PRZEKAZNIK6,PRZEKAZNIK5,PRZEKAZNIK4,PRZEKAZNIK2,PRZEKAZNIK1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9f971050808347efb62c8c2381bc2be5",
+            "uuid": "3e51d76618b24733841d489814d076a0"
+          }
+        ],
+        [
+          "Pro Micro - 5V",
+          1,
+          "PRO MICRO - 5V",
+          "P1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "3ea9970c2dbe44bab245d59fc031146e",
+            "uuid": "3fd7f442e32c407b830734b8c2107db7"
+          }
+        ],
+        [
+          "10K",
+          12,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "R11,R8,R4,R3,R2,R1,R7,R5,R6,R12,R9,R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C410695",
+            "BOM_Manufacturer": "TyoHM",
+            "BOM_Manufacturer Part": "RN 1/4W 10K F T/B A1",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "4a52e8d5749741319739aa214bdc17de"
+          }
+        ],
+        [
+          "Switch-6x6x10",
+          3,
+          "SW-TH_4PIN-L6.00-W6.00",
+          "D6SWITCH,D4SWITCH,D0SWITCH",
+          {
+            "BOM_Supplier Part": "C71840",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BBJ",
+            "BOM_Manufacturer Part": "Switch,6*6*10Plastic head,260G, 0.25mm,Straight line",
+            "puuid": "118dbade8dad4735a5bc730e4e00a551",
+            "uuid": "7c6a4836973e8830e99830ae740040ed"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "CAP-TH_L7.5-W2.5-P5.08-D1.0",
+          "C4,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "100nF (104) ±20% 100V",
+            "BOM_Supplier Part": "C72322",
+            "puuid": "97c02f4937314498981d9a1162df4ee4",
+            "uuid": "7f474ecfe86cad0db40a161c696fe62f"
+          }
+        ],
+        [
+          "PCF8574N",
+          2,
+          "DIP16",
+          "U2,U3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "36387ea742a04602bc24d100c866268f",
+            "uuid": "8da5042a56374802b0a922e00aac7325"
+          }
+        ],
+        [
+          "KF301-5.0-2P",
+          13,
+          "CONN-TH_P5.00_KF301-5.0-2P",
+          "EKSPANDER1,EKSPANDER4,PIN8,7,ZAS2,ANALOG01,ANALOG23,PWM6,5,ZAS,U5,U6,EKSPANDER2,EKSPANDER3,PWM10,9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C474881",
+            "BOM_Manufacturer": "Cixi Kefa Elec",
+            "BOM_Manufacturer Part": "KF301-5.0-2P",
+            "puuid": "c444d117946441c3ab8b7492a6a9cd72",
+            "uuid": "45ddbab4559a43c6bc95d2ca22fb25a0"
+          }
+        ],
+        [
+          "Header-Male-2.54_2x3",
+          3,
+          "HDR-TH_6P-P2.54-V-R2-C3-S2.54",
+          "J3,J2,J1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Header-Male-2.54_2x3",
+            "BOM_Supplier Part": "C65114",
+            "puuid": "a436596cfaa0438cbeaf105e5590ca97",
+            "uuid": "798d338ecc35f17f69de553775e18bf4"
+          }
+        ],
+        [
+          "SRD-05VDC-SL-C_SRD-05VDC-SL-C",
+          8,
+          "SRD-05VDC-SL-C_RELAY_SRD-05VDC-SL-C",
+          "K2,K7,K6,K8,K5,K4,K3,K1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8f47e27e65e845138e40cab487385b1f",
+            "uuid": "4022bc2554fb495aa66b791ad4a854e7"
+          }
+        ],
+        [
+          "1N4004",
+          10,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-FD",
+          "D8,D1,D2,D3,D4,D10,D9,D5,D7,D6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MDD",
+            "BOM_Manufacturer Part": "1N4004",
+            "BOM_Supplier Part": "C3058",
+            "puuid": "f9b6c4acbda64b569861a21e133c291c",
+            "uuid": "7415a5a37b738b1966858ba32f35d9c9"
+          }
+        ],
+        [
+          "L7805CV-DG",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L7805CV-DG",
+            "BOM_Supplier Part": "C3795",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "a3c0944574fc44399b15341d2da7d4b2"
+          }
+        ],
+        [
+          "Goldpin 2",
+          1,
+          "PIN-2",
+          "GP1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ddfafbc92aca4d2a9ef7e16b6cd1e297",
+            "uuid": "a7867741dd9c4c029422793e4385ff77"
+          }
+        ],
+        [
+          "4 goldpin",
+          1,
+          "4GOLDPIN",
+          "RTS",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d13c88494da749a3bd62495abcaccd8c",
+            "uuid": "c3f0de4f30ca4ae98b63e7ac8c959c6a"
+          }
+        ],
+        [
+          "LCD",
+          1,
+          "4GOLDPIN",
+          "LCD",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d13c88494da749a3bd62495abcaccd8c",
+            "uuid": "c3f0de4f30ca4ae98b63e7ac8c959c6a"
+          }
+        ],
+        [
+          "6 goldpin",
+          1,
+          "6 GOLDPIN",
+          "SDCARD",
+          {
+            "BOM_Manufacturer Part": "6 goldpin",
+            "puuid": "2c719abbc6b64cfd9aae4004b4646424",
+            "uuid": "cd792d275cb74f22bcdcd4a2991d6c03"
+          }
+        ],
+        [
+          "WEMOS D1 MINI_ EIGEN COPY",
+          1,
+          "WEMOS D1 MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "Wemos D1 mini",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8dc7c6297b4a4402a69ed3a78a8d3949",
+            "uuid": "ef993dc1fff9442d9f7cefd3e9c5e6ee"
+          }
+        ]
+      ],
+      "updateTime": 1613151020,
+      "createTime": 1608663037,
+      "histories": [],
+      "created_at": "2020-12-22 19:50:37",
+      "updated_at": "2021-02-12 18:30:20"
+    },
+    {
+      "uuid": "6c9e706938ab61071d9c1e680d89c4b9",
+      "puuid": "9f2d8afe040911451863058b91813194",
+      "title": "PCB_2020-12-26_20-40-51",
+      "filename": "PCB_2020-12-26_20-40-51.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "118dbade8dad4735a5bc730e4e00a551": 3,
+        "c444d117946441c3ab8b7492a6a9cd72": 13,
+        "d13c88494da749a3bd62495abcaccd8c": 2,
+        "2c719abbc6b64cfd9aae4004b4646424": 1,
+        "61df6965413e4fae954e6813437fa7e6": 2,
+        "9f971050808347efb62c8c2381bc2be5": 8,
+        "3ea9970c2dbe44bab245d59fc031146e": 1,
+        "2915f1f0a54941d7b912decfe617b47f": 12,
+        "97c02f4937314498981d9a1162df4ee4": 2,
+        "36387ea742a04602bc24d100c866268f": 2,
+        "a436596cfaa0438cbeaf105e5590ca97": 3,
+        "8f47e27e65e845138e40cab487385b1f": 8,
+        "f9b6c4acbda64b569861a21e133c291c": 10,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "ddfafbc92aca4d2a9ef7e16b6cd1e297": 1,
+        "8dc7c6297b4a4402a69ed3a78a8d3949": 1
+      },
+      "BOM": [],
+      "updateTime": 1612725352,
+      "createTime": 1609011651,
+      "histories": [],
+      "created_at": "2020-12-26 20:40:51",
+      "updated_at": "2021-02-07 20:15:52"
+    }
+  ],
+  "sort": [],
+  "title": "Sterownik Wielofunkcyjny V1",
+  "foldername": "Sterownik Wielofunkcyjny V1",
+  "schfilename": "Sterownik Wielofunkcyjny V1.json",
+  "schfilemtime": 1613151020689
+}
